@@ -30,7 +30,7 @@ export function RandomQuote() {
 
 
             const addMetaTag = () => {
-                const tag =       { property: 'og:image', content: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s' }
+                const tag =       { property: 'og:image', content: 'https://cdn-stage-imgprx.obeta.io/resizing_type:fit/rs:fit:800/plain/https://cdn-deha-imgsrv.obeta.io/232D5AD8994CB6A8E06332C8A8C08992' }
 
                 const existingMetaTag = document.querySelector(`meta[property="${tag.property}"]`)
 
