@@ -1,5 +1,6 @@
 'use client';
-import Head from 'next/head'
+import {Helmet} from "react-helmet";
+
 import { useEffect, useState, useLayoutEffect } from 'react';
 
 const randomQuoteUrl = '/quotes/random';
@@ -51,10 +52,11 @@ export function RandomQuote() {
     }, [])
     return (
         <>
-            <Head>
+            <Helmet>
                 <meta property="og:image"
                       content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s" />
-            </Head>
+            </Helmet>
+
             <div className="bg-white card text-neutral-600">
                 <div className="card-body">
                     {quote ? (
