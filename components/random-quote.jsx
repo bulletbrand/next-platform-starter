@@ -25,11 +25,11 @@ export function RandomQuote() {
     }, []);
 
 
- /*   useLayoutEffect(()=>{
-       console.log('ALLEEX 4')
+    useLayoutEffect(()=>{
+       console.log('ALLEEX 5')
 
 
-            const addMetaTag = () => {
+        /*    const addMetaTag = () => {
                 const tag =       { property: 'og:image', content: 'some url' }
 
                 const existingMetaTag = document.querySelector(`meta[property="${tag.property}"]`)
@@ -44,10 +44,9 @@ export function RandomQuote() {
                 }
             }
 
-            addMetaTag()
+            addMetaTag()*/
 
     }, [])
-*/
     return (
         <div className="bg-white card text-neutral-600">
             <div className="card-body">
