@@ -6,7 +6,10 @@ export const metadata = {
     title: {
         template: '%s | Netlify',
         default: 'Netlify Starter',
-        bro: 'Netlify'
+    },
+    priz: {
+        template: '%s | Netlify',
+        default: 'alex bro',
     }
 };
 
