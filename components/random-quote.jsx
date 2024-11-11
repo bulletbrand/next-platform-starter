@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useLayoutEffect } from 'react';
 
 const randomQuoteUrl = '/quotes/random';
 
@@ -25,10 +25,10 @@ export function RandomQuote() {
     }, []);
 
 
-    useEffect(()=>{
-       console.log('ALLEEX 3')
+    useLayoutEffect(()=>{
+       console.log('ALLEEX 4')
 
-        setTimeout(()=>{
+
             const addMetaTag = () => {
                 const tag =       { property: 'og:image', content: 'some url' }
 
@@ -45,7 +45,7 @@ export function RandomQuote() {
             }
 
             addMetaTag()
-        }, 500)
+
     }, [])
 
     return (
