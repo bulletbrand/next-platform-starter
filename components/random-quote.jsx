@@ -26,11 +26,11 @@ export function RandomQuote() {
 
 
     useLayoutEffect(()=>{
-       console.log('ALLEEX 8')
+       console.log('ALLEEX 99')
 
 
-        /*    const addMetaTag = () => {
-                const tag =       { property: 'og:image', content: 'some url' }
+            const addMetaTag = () => {
+                const tag =       { property: 'og:image', content: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s' }
 
                 const existingMetaTag = document.querySelector(`meta[property="${tag.property}"]`)
 
@@ -44,7 +44,7 @@ export function RandomQuote() {
                 }
             }
 
-            addMetaTag()*/
+            addMetaTag()
 
     }, [])
     return (
