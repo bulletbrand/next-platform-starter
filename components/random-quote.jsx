@@ -1,5 +1,5 @@
 'use client';
-
+import Head from 'next/head'
 import { useEffect, useState, useLayoutEffect } from 'react';
 
 const randomQuoteUrl = '/quotes/random';
@@ -25,7 +25,7 @@ export function RandomQuote() {
     }, []);
 
 
-    useLayoutEffect(()=>{
+   /* useLayoutEffect(()=>{
        console.log('ALLEEX 99')
 
 
@@ -48,12 +48,17 @@ export function RandomQuote() {
 
             addMetaTag()
 
-    }, [])
+    }, [])*/
     return (
-        <div className="bg-white card text-neutral-600">
-            <div className="card-body">
-                {quote ? (
-                    <>
+        <>
+            <Head>
+                <meta property="og:image"
+                      content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s" />
+            </Head>
+            <div className="bg-white card text-neutral-600">
+                <div className="card-body">
+                    {quote ? (
+                        <>
                         <h3 className="text-xl text-neutral-900 font-bold">&ldquo;{quote.text}&rdquo;</h3>
                         <p>
                             {' '}
@@ -70,5 +75,6 @@ export function RandomQuote() {
                 )}
             </div>
         </div>
+            </>
     );
 }
