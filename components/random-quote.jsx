@@ -25,11 +25,11 @@ export function RandomQuote() {
     }, []);
 
 
-   /* useLayoutEffect(()=>{
-       console.log('ALLEEX 99')
+    useLayoutEffect(()=>{
+       console.log('ALLEEX 101')
 
 
-            const addMetaTag = () => {
+         /*   const addMetaTag = () => {
                 setTimeout(()=>{
                     const tag =       { property: 'og:image', content: 'https://cdn-stage-imgprx.obeta.io/resizing_type:fit/rs:fit:800/plain/https://cdn-deha-imgsrv.obeta.io/232D5AD8994CB6A8E06332C8A8C08992' }
 
@@ -46,9 +46,9 @@ export function RandomQuote() {
                 }, 1000)
             }
 
-            addMetaTag()
+            addMetaTag()*/
 
-    }, [])*/
+    }, [])
     return (
         <>
             <Head>
