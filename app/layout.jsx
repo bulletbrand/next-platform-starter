@@ -11,10 +11,6 @@ export const metadata = {
         template: '%s | Netlify',
         default: 'alex bro',
     },
-    image: {
-        template: '%s | Netlify',
-         default: 'https://cdn-stage-imgprx.obeta.io/resizing_type:fit/rs:fit:800/plain/https://cdn-deha-imgsrv.obeta.io/232D5AD8994CB6A8E06332C8A8C08992',
-    }
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +18,7 @@ export default function RootLayout({ children }) {
         <html lang="en" data-theme="lofi">
         <head>
             <link rel="icon" href="/favicon.svg" sizes="any" />
-            <meta property="img" content="brddsadasdo" />
+            <meta property="image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s" />
         </head>
         <body className="antialiased text-white bg-blue-900">
                 <div className="flex flex-col min-h-screen px-6 bg-grid-pattern sm:px-12">
