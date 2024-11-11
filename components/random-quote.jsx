@@ -26,7 +26,7 @@ export function RandomQuote() {
 
 
     useLayoutEffect(()=>{
-       console.log('ALLEEX 7')
+       console.log('ALLEEX 8')
 
 
         /*    const addMetaTag = () => {
