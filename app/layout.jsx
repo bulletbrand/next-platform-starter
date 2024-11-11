@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
         <html lang="en" data-theme="lofi">
         <head>
             <link rel="icon" href="/favicon.svg" sizes="any" />
-            <meta property="og:image"
-                  content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s" />
+         {/*   <meta property="og:image"
+                  content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxo2NFiYcR35GzCk5T3nxA7rGlSsXvIfJwg&s" />*/}
 
         </head>
         <body className="antialiased text-white bg-blue-900">
