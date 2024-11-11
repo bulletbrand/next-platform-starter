@@ -5,7 +5,8 @@ import { Header } from '../components/header';
 export const metadata = {
     title: {
         template: '%s | Netlify',
-        default: 'Netlify Starter'
+        default: 'Netlify Starter',
+        bro: 'Netlify'
     }
 };
 
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
         <html lang="en" data-theme="lofi">
         <head>
             <link rel="icon" href="/favicon.svg" sizes="any" />
-            <meta property="og:alex" content="bro-no-bro" />
+            <meta property="og:img" content="bro-no-bro" />
         </head>
         <body className="antialiased text-white bg-blue-900">
                 <div className="flex flex-col min-h-screen px-6 bg-grid-pattern sm:px-12">

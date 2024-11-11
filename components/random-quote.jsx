@@ -25,7 +25,7 @@ export function RandomQuote() {
     }, []);
 
 
-    useLayoutEffect(()=>{
+ /*   useLayoutEffect(()=>{
        console.log('ALLEEX 4')
 
 
@@ -47,7 +47,7 @@ export function RandomQuote() {
             addMetaTag()
 
     }, [])
-
+*/
     return (
         <div className="bg-white card text-neutral-600">
             <div className="card-body">
