@@ -13,7 +13,7 @@ export const metadata = {
     },
     image: {
         template: '%s | Netlify',
-         default: 'alex bro 33',
+         default: 'https://cdn-stage-imgprx.obeta.io/resizing_type:fit/rs:fit:800/plain/https://cdn-deha-imgsrv.obeta.io/232D5AD8994CB6A8E06332C8A8C08992',
     }
 };
 
