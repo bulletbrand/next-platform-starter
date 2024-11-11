@@ -10,6 +10,10 @@ export const metadata = {
     priz: {
         template: '%s | Netlify',
         default: 'alex bro',
+    },
+    image: {
+        template: '%s | Netlify',
+         default: 'alex bro 33',
     }
 };
 
